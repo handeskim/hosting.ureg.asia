@@ -10,4 +10,7 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'app';
+  // logo = './public/logo.svg';
+  logo = "./public/logo.svg";
+
 }

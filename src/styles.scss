@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.bg-ugroup {
+    background-color: #ED1C24 !important;
+    color: #fcb52d;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #fcb52d;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fcb52d;
+}
+.pricing-card .striped {
+    padding: .6rem;
+}
+.pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+}
+.pricing-card .striped li {
+    border-bottom: 1px solid rgba(153,153,153,.298039);
+    margin-bottom: 1rem;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#home_great{
+    text-align: left !important;
+}
+.h1{
+    color: #fcb52d;
+}
